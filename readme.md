@@ -57,5 +57,32 @@ This is a simple REST API for managing a todo list, built with Go and the Gin fr
 
 1. Clone the repository:
 
-   ```sh
-   git clone https://github.com/your-username/go-todo-api.git
+ ```sh
+ git clone https://github.com/your-username/go-todo-api.git
+ ```
+
+2. Navigate to the project directory:
+
+```sh
+cd go-todo-api
+```
+3. Install the dependencies:
+
+```sh
+go get -u github.com/gin-gonic/gin
+```
+4. Run the application:
+
+```sh
+go run main.go
+```
+The API will be running at http://localhost:9090.
+
+## Usage
+Use tools like curl or Postman to interact with the API endpoints.
+
+## Contributing
+Feel free to fork the project, create a new branch, and submit a pull request. Contributions are welcome!
+
+## License
+This project is licensed under the MIT License.
